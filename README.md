@@ -25,3 +25,8 @@ working directory to match the location of the script and running
 
 The file `run_analysis.R` has explanatory comments describing how and
 why the data tidying is performed.
+
+## Codebook
+
+See `CodeBook.md` for a description of the variables in the tidy data
+set.
