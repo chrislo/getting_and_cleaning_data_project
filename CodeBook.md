@@ -12,14 +12,20 @@ for the Getting and Cleaning data coursera course.
 
 ## Variables
 
-Each row of the datafile a single subject performing a particular activity.
+Each row of the datafile a single subject performing a particular
+activity. In the original dataset the participants were split into
+test and training sets. For the purposes of this tidy dataset, these
+two sets have been recombined. There were 30 subjects in the original
+dataset, and each participant performed six activities a number of
+times. The tidy dataset therefore has 180 (30 * 6) rows of data.
 
 - *activity*: One of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 - *subject*: An identifier of the subject who carried out the experiment
 
 The remaining columns in the data set were obtained by taking the
 arithmetic mean of all of the measurements of mean or standard
-deviation for a particular subject performing a particular activity.
+deviation of the sensors for a particular subject performing a
+particular activity.
 
 - *tBodyAccMeanX*: mean of tBodyAcc-mean()-X
 - *tBodyAccMeanY*: mean of tBodyAcc-mean()-Y
